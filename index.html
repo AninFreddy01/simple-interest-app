@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./img/logo.JPG" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple interest app</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+       
+        <div class="myTitle">
+            <h1 class="text-title">Simple interest</h1>
+        </div>
+
+        <div class="item-list">
+            <label for="">Principal</label>
+            <input type="number" class="principal" id="principal">
+        </div>
+        
+        <div class="item-list">
+            <label for="">Rate</label>
+            <input type="number" class="rate" id="rate">
+        </div>
+
+        <div class="item-list">
+            <label for="">Time/years</label>
+            <input type="number" class="time" id="time">
+        </div>
+
+        <div class="answer">
+            <p id="answer"></p>
+        </div>
+
+        <div class="button-group">
+            <button type="button" class="calculate" onclick="calculate()">calculate</button>
+            <button type="button" class="cancel" onclick="cancel()">clear</button>
+        </div> 
+
+        
+
+    </div>
+
+
+    <!--custom js-->
+    <script src="./script.js"></script>
+    
+</body>
+</html>

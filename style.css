@@ -1,0 +1,99 @@
+
+body {
+    background-color: rgb(241, 212, 115);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.container {
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    height: 480px;
+    margin-top: 200px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px gray;
+}
+
+.myTitle {
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: steelblue;
+    line-height: 14px;
+    letter-spacing: 3px;
+}
+
+
+.item-list {
+    padding: 1rem 5rem;
+}
+
+.button-group {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: right;
+    color: brown;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 8px;
+    background-color: rgb(240, 252, 240);
+    box-shadow: 2px 2px  gray;
+    border: none;
+    font-size: 20px;
+}
+
+.answer {
+    background-color: #fff;
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: limegreen;
+    text-align: center;
+}
+
+
+.calculate {
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: darkturquoise;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.calculate:hover {
+    box-shadow: none;
+}
+
+.cancel {
+    margin-left: 30px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: firebrick;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.cancel:hover {
+    box-shadow: none;
+}
